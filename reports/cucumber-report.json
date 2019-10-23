@@ -1,0 +1,314 @@
+[
+  {
+    "description": "    I should be able to go to Sample app website \n    and visit automobile page and there I should be able to \n    enter data such as \n    Vehicle data\n    insurant data\n    product data\n    price option\n    and then send the qoute\n    and check the whether it is successfully",
+    "elements": [
+      {
+        "id": "tosca-vehicle-insurance-testing;visit-the-sample-application-website-and-select-automobile-page",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Visit the sample application website and select automobile page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit tosca sample app website",
+            "result": {
+              "status": "passed",
+              "duration": 122023278101
+            },
+            "line": 13,
+            "match": {
+              "location": "Backup\\tosca_tc-master\\step-definitions\\tosca-vehicle-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on automobile tab",
+            "result": {
+              "status": "passed",
+              "duration": 16940620800
+            },
+            "line": 14,
+            "match": {
+              "location": "internal/modules/cjs/loader.js:832"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see Enter Vehicle Data page",
+            "result": {
+              "status": "passed",
+              "duration": 130999
+            },
+            "line": 15,
+            "match": {
+              "location": "internal/modules/cjs/loader.js:832"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 346700
+            },
+            "hidden": true,
+            "match": {
+              "location": "Backup\\tosca_tc-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "tosca-vehicle-insurance-testing;enter-vehicle-data-and-click-next",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Enter Vehicle data and click next",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter details and click next",
+            "result": {
+              "status": "passed",
+              "duration": 1103724000
+            },
+            "line": 18,
+            "match": {
+              "location": "internal/modules/cjs/loader.js:832"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see Insurant Data page",
+            "result": {
+              "status": "passed",
+              "duration": 13534699
+            },
+            "line": 19,
+            "match": {
+              "location": "internal/modules/cjs/loader.js:832"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 46199
+            },
+            "hidden": true,
+            "match": {
+              "location": "Backup\\tosca_tc-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "tosca-vehicle-insurance-testing;enter-insurant-data-and-click-next",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Enter Insurant data and click next",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter insurant data and click next",
+            "result": {
+              "status": "passed",
+              "duration": 1067733300
+            },
+            "line": 22,
+            "match": {
+              "location": "internal/modules/cjs/loader.js:832"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see Product Data page",
+            "result": {
+              "status": "passed",
+              "duration": 13342199
+            },
+            "line": 23,
+            "match": {
+              "location": "internal/modules/cjs/loader.js:832"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 95301
+            },
+            "hidden": true,
+            "match": {
+              "location": "Backup\\tosca_tc-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "tosca-vehicle-insurance-testing;enter-product-data-and-click-next",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Enter Product data and Click next",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter product data and click next",
+            "result": {
+              "status": "passed",
+              "duration": 644346099
+            },
+            "line": 26,
+            "match": {
+              "location": "internal/modules/cjs/loader.js:832"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see price options",
+            "result": {
+              "status": "passed",
+              "duration": 11995401
+            },
+            "line": 27,
+            "match": {
+              "location": "internal/modules/cjs/loader.js:832"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 34900
+            },
+            "hidden": true,
+            "match": {
+              "location": "Backup\\tosca_tc-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "tosca-vehicle-insurance-testing;select-pricing-option-and-click-next",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Select Pricing Option and click next",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select pricing option and click next",
+            "result": {
+              "status": "passed",
+              "duration": 204614599
+            },
+            "line": 30,
+            "match": {
+              "location": "internal/modules/cjs/loader.js:832"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see",
+            "result": {
+              "status": "passed",
+              "duration": 73737100
+            },
+            "line": 31,
+            "match": {
+              "location": "internal/modules/cjs/loader.js:832"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 34201
+            },
+            "hidden": true,
+            "match": {
+              "location": "Backup\\tosca_tc-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "tosca-vehicle-insurance-testing;enter-send-quote-data-and-click-send",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Enter Send quote data and click send",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter send quote data and click send",
+            "result": {
+              "status": "passed",
+              "duration": 828605800
+            },
+            "line": 34,
+            "match": {
+              "location": "internal/modules/cjs/loader.js:832"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see sent",
+            "result": {
+              "status": "passed",
+              "duration": 11088638800
+            },
+            "line": 35,
+            "match": {
+              "location": "internal/modules/cjs/loader.js:832"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 30200
+            },
+            "hidden": true,
+            "match": {
+              "location": "Backup\\tosca_tc-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "tosca-vehicle-insurance-testing",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Tosca vehicle insurance Testing",
+    "tags": [],
+    "uri": "C:/Users/Innovation Center/Documents/Alexa Backup/tosca_tc-master/features/tosca-vehicle.feature"
+  }
+]

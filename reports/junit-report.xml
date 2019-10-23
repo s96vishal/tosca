@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="tosca-vehicle-insurance-testing;visit-the-sample-application-website-and-select-automobile-page" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Innovation Center/Documents/Alexa Backup/tosca_tc-master/features/tosca-vehicle.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit tosca sample app website" classname="tosca-vehicle-insurance-testing;visit-the-sample-application-website-and-select-automobile-page" time="122.023278101">
+        </testcase>
+        <testcase name="When I click on automobile tab" classname="tosca-vehicle-insurance-testing;visit-the-sample-application-website-and-select-automobile-page" time="16.9406208">
+        </testcase>
+        <testcase name="Then I should see Enter Vehicle Data page" classname="tosca-vehicle-insurance-testing;visit-the-sample-application-website-and-select-automobile-page" time="0.000130999">
+        </testcase>
+    </testsuite>
+    <testsuite name="tosca-vehicle-insurance-testing;enter-vehicle-data-and-click-next" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Innovation Center/Documents/Alexa Backup/tosca_tc-master/features/tosca-vehicle.feature">
+            </property>
+        </properties>
+        <testcase name="When I enter details and click next" classname="tosca-vehicle-insurance-testing;enter-vehicle-data-and-click-next" time="1.103724">
+        </testcase>
+        <testcase name="Then I should see Insurant Data page" classname="tosca-vehicle-insurance-testing;enter-vehicle-data-and-click-next" time="0.013534699">
+        </testcase>
+    </testsuite>
+    <testsuite name="tosca-vehicle-insurance-testing;enter-insurant-data-and-click-next" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Innovation Center/Documents/Alexa Backup/tosca_tc-master/features/tosca-vehicle.feature">
+            </property>
+        </properties>
+        <testcase name="When I enter insurant data and click next" classname="tosca-vehicle-insurance-testing;enter-insurant-data-and-click-next" time="1.0677333">
+        </testcase>
+        <testcase name="Then I should see Product Data page" classname="tosca-vehicle-insurance-testing;enter-insurant-data-and-click-next" time="0.013342199">
+        </testcase>
+    </testsuite>
+    <testsuite name="tosca-vehicle-insurance-testing;enter-product-data-and-click-next" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Innovation Center/Documents/Alexa Backup/tosca_tc-master/features/tosca-vehicle.feature">
+            </property>
+        </properties>
+        <testcase name="When I enter product data and click next" classname="tosca-vehicle-insurance-testing;enter-product-data-and-click-next" time="0.644346099">
+        </testcase>
+        <testcase name="Then I should see price options" classname="tosca-vehicle-insurance-testing;enter-product-data-and-click-next" time="0.011995401">
+        </testcase>
+    </testsuite>
+    <testsuite name="tosca-vehicle-insurance-testing;select-pricing-option-and-click-next" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Innovation Center/Documents/Alexa Backup/tosca_tc-master/features/tosca-vehicle.feature">
+            </property>
+        </properties>
+        <testcase name="When I select pricing option and click next" classname="tosca-vehicle-insurance-testing;select-pricing-option-and-click-next" time="0.204614599">
+        </testcase>
+        <testcase name="Then I should see" classname="tosca-vehicle-insurance-testing;select-pricing-option-and-click-next" time="0.0737371">
+        </testcase>
+    </testsuite>
+    <testsuite name="tosca-vehicle-insurance-testing;enter-send-quote-data-and-click-send" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Innovation Center/Documents/Alexa Backup/tosca_tc-master/features/tosca-vehicle.feature">
+            </property>
+        </properties>
+        <testcase name="When I enter send quote data and click send" classname="tosca-vehicle-insurance-testing;enter-send-quote-data-and-click-send" time="0.8286058">
+        </testcase>
+        <testcase name="Then I should see sent" classname="tosca-vehicle-insurance-testing;enter-send-quote-data-and-click-send" time="11.0886388">
+        </testcase>
+    </testsuite>
+</testsuites>
